@@ -1,0 +1,309 @@
+@import 'flickity.styl';
+
+.carousel-container {
+  margin-bottom: 20px;
+}
+
+/* Portfolio Page Carousel - Andrew Baisden 2014 Portfolio */
+
+.carousel-portfolio {
+  background: var(--page-bg);
+}
+
+.carousel-cell-portfolio {
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.carousel-cell-portfolio img {
+  display: block;
+  height: 200px;
+}
+
+/* Portfolio Page Carousel - SKY */
+
+.carousel-cell-sky {
+  display: grid;
+  //margin-right: 20px;
+  overflow: hidden;
+  width: 100%;
+  //height: 600px; /* Sets the height for all images, in the carousel */
+}
+
+.carousel-cell-sky img {
+  display: block;
+  width: 100%;
+}
+
+.carousel-slides-sky {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.carousel-slide-image-sky {
+  display: grid;
+  justify-self: end;
+  align-self: center;
+}
+
+/* Home Page Carousel */
+
+.carousel {
+  text-align: center;
+  color: #ffffff;
+}
+
+.carousel-cell {
+  display: grid;
+  //margin-right: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-cell img {
+  display: block;
+  height: 400px;
+}
+
+.carousel-slide {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.carousel-slide-image {
+  display: grid;
+  justify-self: end;
+  align-self: center;
+}
+
+.carousel-slide-copy {
+  display: grid;
+  justify-self: start;
+  align-self: center;
+  text-align: left;
+  max-width: 400px;
+  width: 100%;
+}
+
+.carousel-slide-copy a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.carousel-arrow {
+  display: none;
+  justify-items: center;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  bottom: 6rem;
+  color: #ffffff;
+  width: 17px;
+  height: 48px;
+  background: url(../img/downArrow.png)
+}
+
+.flickity-page-dots {
+  bottom: 400px;
+}
+
+.dot {
+  border: 1px solid white;
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width: 1680px) {
+
+/* Homepage */
+.flickity-page-dots {
+  bottom: 200px;
+}
+
+.carousel-arrow {
+  bottom: 3rem;
+}
+
+}
+
+@media screen and (max-width: 1440px) {
+
+/* Homepage */
+.flickity-page-dots {
+  bottom: 200px;
+  left: 90px;
+}
+
+}
+
+@media screen and (max-width: 1280px) {
+
+/* Homepage */
+.flickity-page-dots {
+  bottom: 130px;
+  left: 150px;
+}
+
+.carousel-arrow {
+  bottom: 1rem;
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+/* Homepage */
+.flickity-page-dots {
+  bottom: 60px;
+  left: 150px;
+}
+
+.carousel-arrow {
+  bottom: -7rem;
+}
+
+}
+
+@media screen and (max-width: 990px) {
+.carousel-slide-copy {
+  font-size: 1.5rem;
+  
+}
+
+.carousel-slide-copy p {
+  padding-right: 20px;
+  }
+.flickity-page-dots {
+ display: none;
+}
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel-cell-portfolio img {
+    height: 800px;
+  }
+}
+
+@media screen and ( max-width: 568px ) {
+.carousel-cell img {
+  height: 100px;
+}
+.carousel-slide { 
+height: 500px;
+}
+}
+
+@media screen and ( max-width: 480px ) {
+.carousel-cell-portfolio img {
+    height: 100%;
+  }
+  /* inherit height from parent */
+.carousel-portfolio { 
+    height: 400px;; 
+    }
+
+.carousel-cell-portfolio { 
+    height: 400px;
+    }
+
+    /* Home Page */
+.carousel-slide {
+ grid-template-columns: 1fr;
+ height: 800px;
+}
+
+.carousel-slide-image {
+  justify-self: center;
+}
+
+.carousel-slide-copy h1, p, a {
+ text-align: center;
+ padding: 10px;
+}
+
+.carousel-cell img {
+  height: 200px;
+}
+
+.flickity-page-dots {
+  bottom: 10px;
+  left: 0px;
+}
+
+.carousel-arrow {
+  bottom: 90rem;
+}
+
+}
+
+/* iPhone 8 Plus, 7 Plus, 6 Plus */
+@media screen and (max-width: 414px) {
+
+/* Home Page */
+.carousel-slide {
+ grid-template-columns: 1fr;
+ height: 100vh;
+}
+
+.carousel-slide-image {
+  justify-self: center;
+}
+
+.carousel-slide-copy h1, p, a {
+ text-align: center;
+ padding: 10px;
+}
+
+.carousel-cell img {
+  height: 200px;
+}
+
+.flickity-page-dots {
+  bottom: 620px;
+  left: 0px;
+}
+
+.carousel-arrow {
+  bottom: 90rem;
+}
+
+.carousel-slide-image {
+
+  justify-self: center;
+  align-self: end;
+}
+
+.carousel-slide-copy {
+  font-size: 1.5rem;
+  justify-self: start;
+  align-self: start;
+  text-align: center;
+
+}
+
+.carousel-slide-copy h1, p {
+  padding: 10px;
+  margin: 0px;
+}
+
+}
+
+/* iPhone X, 8, 7, 6 */
+@media screen and (max-width: 375px) {
+.flickity-page-dots {
+  bottom: 670px;
+  left: 0px;
+}
+}
