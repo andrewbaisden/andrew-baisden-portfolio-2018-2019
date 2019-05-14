@@ -31,8 +31,8 @@ const DeveloperPod = () => (
       <p>
         My preference when it comes to structuring websites is to use CSS3. I find that the combined power of CSS Grid
         and Flexbox, is proving to be nearly unlimited. So traditional CSS frameworks, are no longer a given choice in
-        my opinion. However, I am more than capable of using CSS frameworks like Twitter Bootstrap, Materialize and
-        Bulma should the need arise.
+        my opinion. However, I am more than capable of using any CSS framework like Twitter Bootstrap, Semantic UI,
+        Materialize and Bulma should the need arise.
       </p>
     </div>
   </div>
