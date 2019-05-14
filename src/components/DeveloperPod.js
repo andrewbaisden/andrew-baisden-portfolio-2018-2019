@@ -23,7 +23,7 @@ const DeveloperPod = () => (
       </p>
 
       <p>
-        Over the years I have constantly being evolving my skills, and I have now settled on a very modern developer
+        Over the years, I have constantly being evolving my skills, and I have now settled on a very modern developer
         workflow. It consists of using the Javascript frameworks React and Vue. They are very powerful tools and I like
         how they can be used to build all types of applications. For both the web, and mobile devices.
       </p>
