@@ -54,7 +54,11 @@ const LogoBtn = props => (
 );
 
 LogoBtn.propTypes = {
-  homeAlt: PropTypes.string.isRequired,
+  homeAlt: PropTypes.string,
+};
+
+LogoBtn.defaultProps = {
+  homeAlt: 'Home',
 };
 
 export default LogoBtn;

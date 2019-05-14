@@ -51,7 +51,11 @@ const PortfolioPageSky = props => (
 );
 
 PortfolioPageSky.propTypes = {
-  companyBG: PropTypes.string.isRequired,
+  companyBG: PropTypes.string,
+};
+
+PortfolioPageSky.defaultProps = {
+  companyBG: '#ffffff',
 };
 
 export default PortfolioPageSky;

@@ -38,7 +38,11 @@ const PortfolioPageBcsg = props => (
 );
 
 PortfolioPageBcsg.propTypes = {
-  companyBG: PropTypes.string.isRequired,
+  companyBG: PropTypes.string,
+};
+
+PortfolioPageBcsg.defaultProps = {
+  companyBG: '#ffffff',
 };
 
 export default PortfolioPageBcsg;

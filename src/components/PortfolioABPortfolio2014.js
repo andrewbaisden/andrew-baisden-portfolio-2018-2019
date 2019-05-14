@@ -23,7 +23,11 @@ const PortfolioABPortfolio2014 = props => (
 );
 
 PortfolioABPortfolio2014.propTypes = {
-  companyBG: PropTypes.string.isRequired,
+  companyBG: PropTypes.string,
+};
+
+PortfolioABPortfolio2014.defaultProps = {
+  companyBG: '#333333',
 };
 
 export default PortfolioABPortfolio2014;

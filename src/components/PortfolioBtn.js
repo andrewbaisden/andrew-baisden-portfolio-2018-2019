@@ -55,7 +55,11 @@ const PortfolioBtn = props => (
 );
 
 PortfolioBtn.propTypes = {
-  portfolioAlt: PropTypes.string.isRequired,
+  portfolioAlt: PropTypes.string,
+};
+
+PortfolioBtn.defaultProps = {
+  portfolioAlt: 'Portfolio',
 };
 
 export default PortfolioBtn;

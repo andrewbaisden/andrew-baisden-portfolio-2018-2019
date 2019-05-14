@@ -119,11 +119,19 @@ const PortfolioCarouselHome = props => (
 );
 
 PortfolioCarouselHome.propTypes = {
-  slide1BG: PropTypes.string.isRequired,
-  slide2BG: PropTypes.string.isRequired,
-  slide3BG: PropTypes.string.isRequired,
-  slide4BG: PropTypes.string.isRequired,
-  slide5BG: PropTypes.string.isRequired,
+  slide1BG: PropTypes.string,
+  slide2BG: PropTypes.string,
+  slide3BG: PropTypes.string,
+  slide4BG: PropTypes.string,
+  slide5BG: PropTypes.string,
+};
+
+PortfolioCarouselHome.defaultProps = {
+  slide1BG: 'Slide 1',
+  slide2BG: 'Slide 2',
+  slide3BG: 'Slide 3',
+  slide4BG: 'Slide 4',
+  slide5BG: 'Slide 5',
 };
 
 export default PortfolioCarouselHome;

@@ -23,7 +23,11 @@ const PortfolioEarlex = props => (
 );
 
 PortfolioEarlex.propTypes = {
-  companyBG: PropTypes.string.isRequired,
+  companyBG: PropTypes.string,
+};
+
+PortfolioEarlex.defaultProps = {
+  companyBG: '#F4F4F4',
 };
 
 export default PortfolioEarlex;

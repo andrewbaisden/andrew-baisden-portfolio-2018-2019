@@ -23,7 +23,11 @@ const PortfolioOcado = props => (
 );
 
 PortfolioOcado.propTypes = {
-  companyBG: PropTypes.string.isRequired,
+  companyBG: PropTypes.string,
+};
+
+PortfolioOcado.defaultProps = {
+  companyBG: '#ffffff',
 };
 
 export default PortfolioOcado;

@@ -23,7 +23,11 @@ const PortfolioFocusDIY = props => (
 );
 
 PortfolioFocusDIY.propTypes = {
-  companyBG: PropTypes.string.isRequired,
+  companyBG: PropTypes.string,
+};
+
+PortfolioFocusDIY.defaultProps = {
+  companyBG: '#1D4C9A',
 };
 
 export default PortfolioFocusDIY;

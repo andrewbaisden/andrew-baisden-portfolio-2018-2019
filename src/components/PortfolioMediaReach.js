@@ -23,7 +23,11 @@ const PortfolioMediaReach = props => (
 );
 
 PortfolioMediaReach.propTypes = {
-  companyBG: PropTypes.string.isRequired,
+  companyBG: PropTypes.string,
+};
+
+PortfolioMediaReach.defaultProps = {
+  companyBG: '#F0F2F3',
 };
 
 export default PortfolioMediaReach;

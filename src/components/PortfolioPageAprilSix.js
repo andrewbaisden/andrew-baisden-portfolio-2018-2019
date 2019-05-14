@@ -41,7 +41,11 @@ const PortfolioPageAprilSix = props => (
 );
 
 PortfolioPageAprilSix.propTypes = {
-  companyBG: PropTypes.string.isRequired,
+  companyBG: PropTypes.string,
+};
+
+PortfolioPageAprilSix.defaultProps = {
+  companyBG: '#0EA2BC',
 };
 
 export default PortfolioPageAprilSix;

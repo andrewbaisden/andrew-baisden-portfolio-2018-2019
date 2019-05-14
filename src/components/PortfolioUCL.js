@@ -23,7 +23,11 @@ const PortfolioUCL = props => (
 );
 
 PortfolioUCL.propTypes = {
-  companyBG: PropTypes.string.isRequired,
+  companyBG: PropTypes.string,
+};
+
+PortfolioUCL.defaultProps = {
+  companyBG: '#4FA2B7',
 };
 
 export default PortfolioUCL;
