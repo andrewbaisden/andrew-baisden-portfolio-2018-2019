@@ -23,7 +23,11 @@ const PortfolioPowWow = props => (
 );
 
 PortfolioPowWow.propTypes = {
-  companyBG: PropTypes.string.isRequired,
+  companyBG: PropTypes.string,
+};
+
+PortfolioPowWow.defaultProps = {
+  companyBG: '#ffffff',
 };
 
 export default PortfolioPowWow;

@@ -39,7 +39,11 @@ const ContactBtn = props => (
 );
 
 ContactBtn.propTypes = {
-  contactAlt: PropTypes.string.isRequired,
+  contactAlt: PropTypes.string,
+};
+
+ContactBtn.defaultProps = {
+  contactAlt: 'Contact',
 };
 
 export default ContactBtn;

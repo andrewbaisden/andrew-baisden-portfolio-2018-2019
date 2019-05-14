@@ -24,7 +24,11 @@ const MenuServices = props => (
 );
 
 MenuServices.propTypes = {
-  menuBG: PropTypes.string.isRequired,
+  menuBG: PropTypes.string,
+};
+
+MenuServices.defaultProps = {
+  menuBG: '#518EA5',
 };
 
 export default MenuServices;

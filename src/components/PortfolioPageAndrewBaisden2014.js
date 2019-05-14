@@ -42,7 +42,11 @@ const PortfolioPageAndrewBaisden2014 = props => (
 );
 
 PortfolioPageAndrewBaisden2014.propTypes = {
-  companyBG: PropTypes.string.isRequired,
+  companyBG: PropTypes.string,
+};
+
+PortfolioPageAndrewBaisden2014.defaultProps = {
+  companyBG: '#333333',
 };
 
 export default PortfolioPageAndrewBaisden2014;

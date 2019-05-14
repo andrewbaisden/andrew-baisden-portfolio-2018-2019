@@ -6,7 +6,7 @@ import bcsgQAScreen3 from '../img/bcsgQAScreen3.jpg';
 import bcsgQAScreen4 from '../img/bcsgQAScreen4.jpg';
 import bcsgQAScreen5 from '../img/bcsgQAScreen5.jpg';
 
-const flickityOptions = {
+export const flickityOptions = {
   initialIndex: 2,
   pageDots: false,
   wrapAround: true,

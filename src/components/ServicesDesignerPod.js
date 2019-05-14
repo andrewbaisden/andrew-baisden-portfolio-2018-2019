@@ -49,7 +49,11 @@ const ServicesDesignerPod = props => (
 );
 
 ServicesDesignerPod.propTypes = {
-  h1bg: PropTypes.string.isRequired,
+  h1bg: PropTypes.string,
+};
+
+ServicesDesignerPod.defaultProps = {
+  h1bg: '#ffffff',
 };
 
 export default ServicesDesignerPod;

@@ -63,7 +63,11 @@ const ServicesToolPod = props => (
 );
 
 ServicesToolPod.propTypes = {
-  h1bg: PropTypes.string.isRequired,
+  h1bg: PropTypes.string,
+};
+
+ServicesToolPod.defaultProps = {
+  h1bg: '#ffffff',
 };
 
 export default ServicesToolPod;

@@ -50,7 +50,11 @@ c16.759,0,30.322-13.562,30.322-30.321V424.56C449.199,348.749,394.235,333.585,394
 );
 
 AboutBtn.propTypes = {
-  aboutAlt: PropTypes.string.isRequired,
+  aboutAlt: PropTypes.string,
+};
+
+AboutBtn.defaultProps = {
+  aboutAlt: 'About Me',
 };
 
 export default AboutBtn;

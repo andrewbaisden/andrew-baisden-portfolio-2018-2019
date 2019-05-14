@@ -23,7 +23,11 @@ const PortfolioDigitalView = props => (
 );
 
 PortfolioDigitalView.propTypes = {
-  companyBG: PropTypes.string.isRequired,
+  companyBG: PropTypes.string,
+};
+
+PortfolioDigitalView.defaultProps = {
+  companyBG: '#ffffff',
 };
 
 export default PortfolioDigitalView;
