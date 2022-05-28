@@ -1,6 +1,6 @@
 # Andrew Baisden Portfolio Website 2018 - 2019
 
-![Andrew Baisden Portfolio Website 2018 - 2019](https://res.cloudinary.com/d74fh3kw/image/upload/v1582387902/portfolio_2018_2019_ztwu7q.jpg 'Andrew Baisden Portfolio Website 2018 - 2019')
+![Andrew Baisden Portfolio Website 2018 - 2019](/img/portfolio-2018-2019.jpeg 'Andrew Baisden Portfolio Website 2018 - 2019')
 
 ## Installation
 
