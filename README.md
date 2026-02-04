@@ -2,6 +2,10 @@
 
 ![Andrew Baisden Portfolio Website 2018 - 2019](/img/portfolio-2018-2019.jpeg 'Andrew Baisden Portfolio Website 2018 - 2019')
 
+## Search Indexing
+
+This portfolio is intentionally set to noindex because it is an older site. Search engines are blocked using three layers: a `meta` robots tag in `public/index.html`, an `X-Robots-Tag: noindex` response header via `public/_headers` (Netlify), and a `Disallow: /` rule in `public/robots.txt`.
+
 ## Installation
 
 1. Download/Clone this repo to your local computer

@@ -41,11 +41,11 @@
 		"stylus": "^0.54.7"
 	},
 	"scripts": {
-		"start": "react-scripts start",
+		"start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
 		"styles": "stylus -w ./src/css/App.styl -o ./src/css/App.css",
 		"dev": "concurrently \"npm run start \" \"npm run styles\"",
 		"watch": "run-p start styles",
-		"build": "react-scripts build",
+		"build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
 		"test": "jest --watch",
 		"test:react": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject"
@@ -60,13 +60,13 @@
 		"babel-jest": "^24.9.0",
 		"babel-plugin-styled-components": "^1.10.7",
 		"eslint-config-airbnb": "^16.1.0",
-		"eslint-config-prettier": "^2.9.0",
+		"eslint-config-prettier": "^6.15.0",
 		"eslint-plugin-import": "^2.20.1",
 		"eslint-plugin-jsx-a11y": "^6.2.3",
-		"eslint-plugin-prettier": "^2.6.0",
+		"eslint-plugin-prettier": "^3.4.1",
 		"eslint-plugin-react": "^7.18.3",
 		"npm-run-all": "^4.1.2",
-		"prettier": "1.10.2"
+		"prettier": "^2.8.8"
 	},
 	"browserslist": [
 		">0.2%",
